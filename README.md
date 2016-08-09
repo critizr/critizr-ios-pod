@@ -1,0 +1,1 @@
+# critizr-ios-pod
