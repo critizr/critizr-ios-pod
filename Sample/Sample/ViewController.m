@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Critizr/Critizr.h>
 
 @interface ViewController ()
 
@@ -22,6 +23,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    NSString *apiKey = @"3f672def9b5902a4eb4ab5c936bc7b0d";
+    
+    CRFeedbackDialog *feedbackDialog = [CRFeedbackDialog feedbackDialogWithAPIKey:apiKey];
+    [feedbackDialog presentFeedbackDialogFrom:self];
 }
 
 @end
