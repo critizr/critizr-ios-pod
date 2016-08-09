@@ -14,7 +14,7 @@ D’obtenir la note de relation client d’un point de vente"
   s.author             = { "Jean-Philippe DESCAMPS" => "jeanphilippe.descamps@critizr.com" }
 
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/critizr/critizr-ios-pod.git", :tag => "v1.0" }
+  s.source       = { :git => "https://github.com/critizr/critizr-ios-pod.git", :tag => "1.0" }
   s.vendored_frameworks = "Critizr.framework"
   s.requires_arc = true
 
