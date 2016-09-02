@@ -12,7 +12,7 @@
 #define ENV_PREPROD  2
 #define ENV_PROD  3
 
-#define ENV ENV_PROD
+#define ENV ENV_PREPROD
 
 
 #if ENV == ENV_DEV
