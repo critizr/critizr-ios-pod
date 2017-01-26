@@ -1,0 +1,1 @@
+../../../../Critizr-ios/Critizr.framework/Versions/A/Headers/Critizr.h
