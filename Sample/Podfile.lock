@@ -1,0 +1,12 @@
+PODS:
+  - Critizr-ios (1.0)
+
+DEPENDENCIES:
+  - Critizr-ios (~> 1.0)
+
+SPEC CHECKSUMS:
+  Critizr-ios: a0a6f38c41320be2f5ed959e1b234dac3475e4b4
+
+PODFILE CHECKSUM: 2d49d2598a80799ba87c752e89f421f269817c4a
+
+COCOAPODS: 1.1.1

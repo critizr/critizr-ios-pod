@@ -11,7 +11,6 @@
 @protocol CRFeedbackDialogDelegate <NSObject>
 
 @optional
-
 - (void) feedbackDialogDidCloseWithMessageSent:(BOOL)messageSent;
 
 @end
