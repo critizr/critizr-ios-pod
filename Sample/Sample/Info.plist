@@ -48,5 +48,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>CritizrEnvironement</key>
+    <string>PreProduction</string>
+    <key>CritizrAPIKey</key>
+    <string>7f614697ac3524af3ca4ce0df9164caf</string>
 </dict>
 </plist>

@@ -18,7 +18,7 @@
 
 @interface CRFeedbackDialog : NSObject
 
-+ (CRFeedbackDialog *) feedbackDialogWithAPIKey: (NSString *) APIKey;
++ (CRFeedbackDialog *) feedbackDialog;
 
 - (void) presentFeedbackDialogFrom:(UIViewController *) viewController;
 - (void) presentFeedbackDialogFrom:(UIViewController *) viewController withStoreId:(int)storeId;

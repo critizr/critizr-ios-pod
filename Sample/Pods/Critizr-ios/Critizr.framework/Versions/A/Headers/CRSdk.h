@@ -20,11 +20,11 @@
 @property (weak)  id<CRSdkDelegate> delegate;
 
 + (CRSdk *)sharedInstance;
-+ (CRSdk *)critizrSDKInstanceWithAPIKey:(NSString *)anApiKey andDelegate:(id<CRSdkDelegate>)delegate;
++ (CRSdk *)critizrSDKInstance:()key andDelegate:(id<CRSdkDelegate>)delegate;
 
 - (void)fetchRatingForPlace:(NSString *)aPlaceId withDelegate:(id<CRSdkDelegate>)aDelegate;
 
-- (NSURL *)urlForStoreLocatorRessourceWithApiKey:(NSString *)apiKey;
+- (NSURL *)urlForStoreLocatorRessource;
 
 - (NSURL *)urlForWidgetRessourceForStroreId:(NSString *)storeId withApiKey:(NSString *)apiKey;
 

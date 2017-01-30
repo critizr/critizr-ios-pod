@@ -137,6 +137,7 @@
 				TargetAttributes = {
 					642A13D01D5A0064000A09AE = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 745JX7EPKM;
 					};
 				};
 			};
@@ -341,6 +342,7 @@
 			baseConfigurationReference = 96CDA3F4DC1671EE032A5281 /* Pods-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 745JX7EPKM;
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.critizr.sample;
@@ -353,6 +355,7 @@
 			baseConfigurationReference = 1D7CF7715A1779C37995045D /* Pods-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 745JX7EPKM;
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.critizr.sample;
