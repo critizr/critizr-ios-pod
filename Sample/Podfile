@@ -2,6 +2,6 @@ platform :ios, '8.0'
 
 target 'Sample' do
 
-  pod 'Critizr-ios', '~> 1.2.2’
+  
 
 end

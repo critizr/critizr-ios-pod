@@ -14,7 +14,6 @@
 /* Begin PBXFileReference section */
 		173EBF9A53744D4A32444C46A48A54B9 /* libPods-Sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Sample.a"; path = "libPods-Sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6598D35880AC6EEF4996CBF37733D2 /* Pods-Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample-acknowledgements.plist"; sourceTree = "<group>"; };
-		56CC3D8F84A4A4D060F6EE414E046BB9 /* Critizr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Critizr.framework; sourceTree = "<group>"; };
 		6F31CE8AA96B2E079FAEE8AC6E224974 /* Pods-Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-frameworks.sh"; sourceTree = "<group>"; };
 		844DD3FE88AE78CBD12727367A5ECE13 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -37,31 +36,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D1F49848DEC978ECDFA07BC8E91C02A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1008EF7B1A870D03DB8D5245314D5C69 /* Critizr-ios */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		1008EF7B1A870D03DB8D5245314D5C69 /* Critizr-ios */ = {
-			isa = PBXGroup;
-			children = (
-				59EF01654970740C0A1F904B07548985 /* Frameworks */,
-			);
-			name = "Critizr-ios";
-			path = "Critizr-ios";
-			sourceTree = "<group>";
-		};
-		59EF01654970740C0A1F904B07548985 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				56CC3D8F84A4A4D060F6EE414E046BB9 /* Critizr.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +49,6 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0D1F49848DEC978ECDFA07BC8E91C02A /* Pods */,
 				B9F15200479F0A7178F554D5E7CA307F /* Products */,
 				BC55BC57FF7D44184EA25BD902EF1FB3 /* Targets Support Files */,
 			);

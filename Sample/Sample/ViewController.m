@@ -29,7 +29,13 @@
     [super viewDidAppear:animated];
 
     CRFeedbackDialog *feedbackDialog = [CRFeedbackDialog feedbackDialog];
-    [feedbackDialog presentFeedbackDialogFrom:self];
+    NSString *storeID = @"velo-paris-xvii";
+    NSDictionary *params = @{
+                                @"mode" : @"feedback",
+                                @"user" : @"Z3VpbGxhdW1lfGd1aWxsYXVtZUBjcml0aXpyLmNvbQ=="
+                            };
+    
+    [feedbackDialog presentFeedbackDialogFrom:self withParams:params];
 }
 
 @end

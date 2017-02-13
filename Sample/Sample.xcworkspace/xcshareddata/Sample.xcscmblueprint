@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ED4A92FC8C7CC25A501B4F987EC287DCEDCBED95",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ED4A92FC8C7CC25A501B4F987EC287DCEDCBED95" : 9223372036854775807,
+    "F47575F79EB9C24E586807ED7A0E11149C825134" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "752F662A-1216-4746-A0CD-4188E29F3D0B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ED4A92FC8C7CC25A501B4F987EC287DCEDCBED95" : "critizr-ios-pod\/",
+    "F47575F79EB9C24E586807ED7A0E11149C825134" : "critizr-ios-sdk-private\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Sample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Sample\/Sample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:critizr\/critizr-ios-pod.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ED4A92FC8C7CC25A501B4F987EC287DCEDCBED95"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:critizr\/critizr-ios-sdk-private.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F47575F79EB9C24E586807ED7A0E11149C825134"
+    }
+  ]
+}

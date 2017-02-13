@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09B5E9641E521E0700C5D121 /* Critizr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B5E9631E521E0700C5D121 /* Critizr.framework */; };
 		0CB2C902A3D3EDF0788AE444 /* libPods-Sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC89AAF37FC64DB7EB3EF9BC /* libPods-Sample.a */; };
 		642A13D61D5A0064000A09AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A13D51D5A0064000A09AE /* main.m */; };
 		642A13D91D5A0064000A09AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A13D81D5A0064000A09AE /* AppDelegate.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09B5E9631E521E0700C5D121 /* Critizr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Critizr.framework; sourceTree = "<group>"; };
 		1D7CF7715A1779C37995045D /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		642A13D11D5A0064000A09AE /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		642A13D51D5A0064000A09AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B5E9641E521E0700C5D121 /* Critizr.framework in Frameworks */,
 				0CB2C902A3D3EDF0788AE444 /* libPods-Sample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +59,7 @@
 		642A13C81D5A0063000A09AE = {
 			isa = PBXGroup;
 			children = (
+				09B5E9631E521E0700C5D121 /* Critizr.framework */,
 				642A13D31D5A0064000A09AE /* Sample */,
 				642A13D21D5A0064000A09AE /* Products */,
 				08D3D99A502AC8ACB2358F01 /* Pods */,
@@ -137,7 +141,7 @@
 				TargetAttributes = {
 					642A13D01D5A0064000A09AE = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 745JX7EPKM;
+						DevelopmentTeam = RVYNC7UMEC;
 					};
 				};
 			};
@@ -342,7 +346,11 @@
 			baseConfigurationReference = 96CDA3F4DC1671EE032A5281 /* Pods-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 745JX7EPKM;
+				DEVELOPMENT_TEAM = RVYNC7UMEC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.critizr.sample;
@@ -355,7 +363,11 @@
 			baseConfigurationReference = 1D7CF7715A1779C37995045D /* Pods-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 745JX7EPKM;
+				DEVELOPMENT_TEAM = RVYNC7UMEC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.critizr.sample;

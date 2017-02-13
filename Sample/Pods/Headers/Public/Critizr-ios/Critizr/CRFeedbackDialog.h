@@ -1,1 +1,0 @@
-../../../../Critizr-ios/Critizr.framework/Versions/A/Headers/CRFeedbackDialog.h
