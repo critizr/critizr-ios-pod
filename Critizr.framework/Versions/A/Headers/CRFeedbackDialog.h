@@ -20,9 +20,9 @@
 
 + (CRFeedbackDialog *) feedbackDialog;
 
-- (void) presentFeedbackDialogFrom:(UIViewController *) viewController;
-- (void) presentFeedbackDialogFrom:(UIViewController *) viewController withStoreId:(int)storeId;
-- (void) presentFeedbackDialogFrom:(UIViewController *) viewController withStoreIdString:(NSString *)storeId;
+- (void) presentFeedbackDialogFrom:(UIViewController *) viewController withParams:(NSDictionary *)params;
+- (void) presentFeedbackDialogFrom:(UIViewController *) viewController withStoreId:(int)storeId withParams:(NSDictionary *)params;
+- (void) presentFeedbackDialogFrom:(UIViewController *) viewController withStoreIdString:(NSString *)storeId withParams:(NSDictionary *)params;
 
 
 @end
