@@ -10,7 +10,7 @@
 
 @protocol CRSdkDelegate <NSObject>
 @optional
-- (void)critizrPlaceRatingFetched:(double)aPlaceRating;
+- (void)critizrPlaceRatingFetched:(double)customerRelationshipRating withSatisfaction:(double)satisfactionRating;
 - (void)critizrPlaceRatingError:(NSError *)anError;
 @end
 
@@ -28,6 +28,8 @@
 - (NSURL *)urlForStoreLocatorRessource:(NSDictionary *)params;
 
 - (NSURL *)urlForWidgetRessourceForStroreId:(NSString *)storeId withParams:(NSDictionary *) params;
+
+- (NSURL *)urlForStoreDisplayRessourceForStroreId:(NSString *)storeId withParams:(NSDictionary *) params;
 
 @end
 

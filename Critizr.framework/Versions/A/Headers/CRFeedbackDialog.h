@@ -24,5 +24,6 @@
 - (void) presentFeedbackDialogFrom:(UIViewController *) viewController withStoreId:(int)storeId withParams:(NSDictionary *)params;
 - (void) presentFeedbackDialogFrom:(UIViewController *) viewController withStoreIdString:(NSString *)storeId withParams:(NSDictionary *)params;
 
+- (void) presentStoreDisplayDialogFrom:(UIViewController *) viewController withStoreIdString:(NSString *)storeId withParams:(NSDictionary *)params;
 
 @end
