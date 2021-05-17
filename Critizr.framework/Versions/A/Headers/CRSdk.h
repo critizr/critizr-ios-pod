@@ -14,7 +14,7 @@
 - (void)critizrPlaceRatingError:(NSError *)anError;
 @end
 
-@interface CRSdk : NSObject {
+@interface CRSdk : NSObject<NSURLConnectionDelegate> {
     
 }
 @property (weak)  id<CRSdkDelegate> delegate;
