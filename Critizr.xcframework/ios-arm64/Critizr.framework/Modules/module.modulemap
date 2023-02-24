@@ -1,0 +1,6 @@
+framework module Critizr {
+  umbrella header "Critizr.h"
+
+  export *
+  module * { export * }
+}
